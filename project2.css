@@ -1,0 +1,108 @@
+.header{
+    background-color: #00000077;
+    height: 100px;
+    padding-top: 20px;
+    color: white;
+}
+body{
+    background-image: url(d.jpg);
+}
+.spn1{
+    color: pink;
+    position: relative;
+}
+.spn1::after{
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    top:40px;
+    left: -50px;
+    right: 0px;
+    width: 250px;
+    border-bottom: 5px solid pink;
+}
+fieldset{
+    background-color: rgba(0, 0,0, 0.7);
+    width: 70%;
+    border-color: pink;
+    border-radius: 10px;
+    color: white;
+    margin-top: 100px;
+}
+legend{
+    border: 2px solid pink;
+    border-radius: 10px;
+    background-color: black;
+    font-size: 20px;
+    padding:10px 20px 10px 20px;
+    color: white;
+}
+.left{
+    width: 30%;
+}
+.right{
+    width: 70%;
+}
+.maincon{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.name{
+    border-radius: 4px;
+    width: 270px;
+    height: 30px;
+    border-color: white
+}
+.ph{
+    border-radius: 4px;
+    width: 270px;
+    height: 30px;
+    border-color: white
+}
+.email{
+    border-radius: 4px;
+    width: 270px;
+    height: 30px;
+    border-color: white
+}
+.pass{
+    border-radius: 4px;
+    width: 270px;
+    height: 30px;
+    border-color: white
+}
+.date{
+    border-radius: 4px;
+    width: 270px;
+    height: 30px;
+    border-color: white
+}
+.sel{
+    border-radius: 4px;
+    width: 270px;
+    height: 30px;
+    border-color: white
+}
+.table tr td{
+    font-size: 25px;
+              padding-right: 7px;
+              padding-bottom: 20px;
+              padding-left: 100px;   
+}
+.bn1{
+    background-color:black;
+    border-color: pink;
+    border-radius: 5px;
+    color:white;
+    width:60px;
+    height: 40px;
+}
+.bn2{
+    background-color: black;
+    border-color: pink;
+    border-radius: 5px;
+    color:white;
+    width:60px;
+    height: 40px; 
+}
